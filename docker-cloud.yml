@@ -1,0 +1,4 @@
+web:
+  image: frog/rad-container
+  ports:
+    - "80:80"
