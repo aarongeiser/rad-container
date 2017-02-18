@@ -17,9 +17,11 @@ A starting point for containerized projects. (for Rapid Application Development)
 - `shell` Starts your continer and automatically logs into it via SSH.
 - `run`  Runs the container with stdout.
 - `start` Runs the container in daemon mode - it will run in the background and you can attach to it at any time.
+- `restart` Starts a stopped container.
 - `stop` Stops the running container.
 - `rm` Removes your container.
 - `release` Builds your container image and then pushes it to the Docker Hub repository specified in your make_env file.
+- `init` An initialization command intended for seeding an application.  Blank by default.
 
 # Environment Variables
 
