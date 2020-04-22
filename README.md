@@ -18,8 +18,9 @@ You may pass additional environment variables to your container by including the
 The following commands are intended to make working with Docker faster and easier on your local machine.
 
 - `build` Builds your container from the instructions in your Dockerfile.
-- `push` Pushes your continer image to the Docker Hub repository specified in your make_env file.
-- `shell` Starts your continer and automatically logs into it via SSH.
+- `push` Pushes your container image to the Docker Hub repository specified in your make_env file.
+- `bash` Logs into a running container via SSH.
+- `shell` Starts your container and automatically logs into it via SSH.
 - `run`  Runs the container with stdout.
 - `start` Runs the container in daemon mode - it will run in the background and you can attach to it at any time.
 - `restart` Starts a stopped container.
